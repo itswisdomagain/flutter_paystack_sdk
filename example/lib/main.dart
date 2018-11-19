@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
   Future<void> initPaystack() async {
     displayMessage("Initializing Paystack");
     
-    String paystackKey = "pk_test_71cb8fa98c03c73d3ff040d7ba712af4921b3bf9";
+    String paystackKey = "pk_test_xxxxxxxxxxxxxxxx";
     try {
       await PaystackSDK.initialize(paystackKey);
       _paymentReady = true;

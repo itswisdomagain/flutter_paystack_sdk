@@ -1,0 +1,19 @@
+name: paystack_sdk
+description: Flutter plugin for Paystack. Accept payments on Android and iOS apps built with Flutter
+version: 0.0.1
+author: itswisdomagain <wisdom.arerosuoghene@gmail.com>
+homepage: https://github.com/itswisdomagain/flutter_paystack_sdk
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: tech.itswisdomagain.paystacksdk
+    pluginClass: PaystackSdkPlugin
+
+publish_to: https://pub.dartlang.org
